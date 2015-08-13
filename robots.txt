@@ -1,2 +1,2 @@
-Sitemap: http://www.demba-ba.org/sitemapindex.xml
+Sitemap: http://demba-ba.org/sitemapindex.xml
 
