@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://demba-ba.org/galleries/rss.xml</loc>
-  <lastmod>2015-08-14T01:57:00Z</lastmod>
+  <lastmod>2015-08-14T02:04:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://demba-ba.org/rss.xml</loc>
@@ -15,6 +15,6 @@
  </sitemap>
  <sitemap>
   <loc>http://demba-ba.org/sitemap.xml</loc>
-  <lastmod>2015-08-14T01:57:00Z</lastmod>
+  <lastmod>2015-08-14T02:04:00Z</lastmod>
  </sitemap>
 </sitemapindex>
