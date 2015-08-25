@@ -4,10 +4,10 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1440468143.081513
+_modified_time = 1440468143.076653
 _enable_loop = True
-_template_filename = u'/home/demba/.pyenv/versions/blgng/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/list.tmpl'
-_template_uri = 'list.tmpl'
+_template_filename = u'/home/demba/.pyenv/versions/blgng/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/list_post.tmpl'
+_template_uri = 'list_post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
 
@@ -29,7 +29,8 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
             return render_content(context._locals(__M_locals))
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
@@ -49,25 +50,32 @@ def render_content(context,**pageargs):
     try:
         def content():
             return render_content(context)
-        items = context.get('items', UNDEFINED)
+        date_format = context.get('date_format', UNDEFINED)
+        posts = context.get('posts', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(u'\n<article class="listpage">\n    <header>\n        <h1>')
         __M_writer(unicode(title))
         __M_writer(u'</h1>\n    </header>\n')
-        if items:
+        if posts:
             __M_writer(u'    <ul class="postlist">\n')
-            for text, link in items:
+            for post in posts:
                 __M_writer(u'        <li><a href="')
-                __M_writer(unicode(link))
+                __M_writer(unicode(post.permalink()))
+                __M_writer(u'" class="listtitle">')
+                __M_writer(filters.html_escape(unicode(post.title())))
+                __M_writer(u'</a> <time class="listdate" datetime="')
+                __M_writer(unicode(post.formatted_date('webiso')))
+                __M_writer(u'" title="')
+                __M_writer(unicode(post.formatted_date(date_format)))
                 __M_writer(u'">')
-                __M_writer(unicode(text))
-                __M_writer(u'</a>\n')
+                __M_writer(unicode(post.formatted_date(date_format)))
+                __M_writer(u'</time></li>\n')
             __M_writer(u'    </ul>\n')
         else:
             __M_writer(u'    <p>')
-            __M_writer(unicode(messages("Nothing found.")))
+            __M_writer(unicode(messages("No posts found.")))
             __M_writer(u'</p>\n')
         __M_writer(u'</article>\n')
         return ''
@@ -77,6 +85,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"source_encoding": "utf-8", "line_map": {"26": 0, "36": 2, "41": 19, "47": 4, "56": 4, "57": 7, "58": 7, "59": 9, "60": 10, "61": 11, "62": 12, "63": 12, "64": 12, "65": 12, "66": 12, "67": 14, "68": 15, "69": 16, "70": 16, "71": 16, "72": 18, "78": 72}, "uri": "list.tmpl", "filename": "/home/demba/.pyenv/versions/blgng/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/list.tmpl"}
+{"source_encoding": "utf-8", "line_map": {"26": 0, "37": 2, "42": 19, "48": 4, "58": 4, "59": 7, "60": 7, "61": 9, "62": 10, "63": 11, "64": 12, "65": 12, "66": 12, "67": 12, "68": 12, "69": 12, "70": 12, "71": 12, "72": 12, "73": 12, "74": 12, "75": 14, "76": 15, "77": 16, "78": 16, "79": 16, "80": 18, "86": 80}, "uri": "list_post.tmpl", "filename": "/home/demba/.pyenv/versions/blgng/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/list_post.tmpl"}
 __M_END_METADATA
 """

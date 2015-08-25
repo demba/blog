@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://demba-ba.org/</loc>
-  <lastmod>2015-08-14T01:45:00Z</lastmod>
+  <lastmod>2015-08-25T01:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://demba-ba.org/2015/</loc>
+  <lastmod>2015-08-25T01:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/archive.html</loc>
-  <lastmod>2015-08-14T02:04:00Z</lastmod>
+  <lastmod>2015-08-25T01:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/blog/</loc>
@@ -28,6 +32,10 @@
  <url>
   <loc>http://demba-ba.org/listings/</loc>
   <lastmod>2015-08-13T19:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://demba-ba.org/posts/rethinking-the-interviewing-process/</loc>
+  <lastmod>2015-08-25T01:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/stories/about-me/</loc>
