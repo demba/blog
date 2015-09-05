@@ -76,7 +76,7 @@ anything, unless they are informed by the context of ordinary lives?
 I may be wrong. And an old argument, definitely held by conservatives, and by a segment of
 black politics, talks about African American responsibility, the degradation of the African American family, and how
 African Americans must pull themselves from bootstraps. Even Bill Cosby of all people talks about this. But if you [read](http://www.amazon.com/The-Warmth-Other-Suns-Migration/dp/0679763880)
-Isabelle Wilkerson, if you [read](http://www.theatlantic.com/politics/archive/2014/03/black-pathology-and-the-closing-of-the-progressive-mind/284523/) some of Coates' writing, and the historical references in both,
+Isabel Wilkerson, if you [read](http://www.theatlantic.com/politics/archive/2014/03/black-pathology-and-the-closing-of-the-progressive-mind/284523/) some of Coates' writing, and the historical references in both,
 you cannot help but question this view. To me, the argument about moral reform is weak because it is devoid of historical context. This would be the same thing as saying something which I think is absurd "well, women have been granted equality decades ago, why can't they
 pull themselves by the bootstraps and make as much money as we men do?", "why can't they pull themselves up by the bootstraps and get their voices heard?"
 These are absurd statements.
