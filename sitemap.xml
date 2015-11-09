@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://demba-ba.org/</loc>
-  <lastmod>2015-09-05T20:24:00Z</lastmod>
+  <lastmod>2015-11-09T02:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/2015/</loc>
@@ -40,6 +40,10 @@
  <url>
   <loc>http://demba-ba.org/posts/the-role-of-the-past-in-our-question-for-social-change/</loc>
   <lastmod>2015-09-05T20:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://demba-ba.org/posts/two-months-in/</loc>
+  <lastmod>2015-11-09T02:24:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/stories/about-me/</loc>
