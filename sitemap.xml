@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://demba-ba.org/</loc>
-  <lastmod>2017-01-16T14:28:00Z</lastmod>
+  <lastmod>2018-08-28T15:51:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/2015/</loc>
@@ -18,8 +18,12 @@
   <lastmod>2017-01-16T14:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://demba-ba.org/2018/</loc>
+  <lastmod>2018-08-28T15:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://demba-ba.org/archive.html</loc>
-  <lastmod>2017-01-16T14:28:00Z</lastmod>
+  <lastmod>2018-08-28T15:51:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/blog/</loc>
@@ -44,6 +48,10 @@
  <url>
   <loc>http://demba-ba.org/posts/rethinking-the-interviewing-process/</loc>
   <lastmod>2015-08-25T01:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://demba-ba.org/posts/science-comedy-and-art/</loc>
+  <lastmod>2018-08-28T15:51:00Z</lastmod>
  </url>
  <url>
   <loc>http://demba-ba.org/posts/the-academic-job-search-the-story-of-you/</loc>
@@ -75,6 +83,6 @@
  </url>
  <url>
   <loc>http://demba-ba.org/stories/cv/index.src.html</loc>
-  <lastmod>2017-12-14T16:40:00Z</lastmod>
+  <lastmod>2018-08-28T16:23:00Z</lastmod>
  </url>
 </urlset>
