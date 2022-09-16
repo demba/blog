@@ -18,7 +18,7 @@ jupyter-client==4.0.0
 jupyter-core==4.0.2
 Logbook==0.10.1
 lxml==3.4.4
-Mako==1.0.1
+Mako==1.2.2
 Markdown==2.6.2
 MarkupSafe==0.23
 matplotlib==1.4.3
